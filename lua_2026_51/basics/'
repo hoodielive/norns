@@ -1,0 +1,17 @@
+local synth = {
+  frequency = 440, 
+  amplitude = 0.2
+}
+
+local function set_frequency(synth, frequency)
+  synth.frequency = frequency
+end
+
+local frequency = 440
+local amplitude = 0.2
+local duration = 2.0
+
+frequency = frequency * 2 
+print(frequency)
+
+print()
